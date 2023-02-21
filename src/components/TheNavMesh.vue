@@ -4,7 +4,7 @@
     position="0 0.01 -4.75"
     rotation="-90 0 0"
     data-role="nav-mesh"
-    material="color: blue"
+    material="src:../../public/assets/texture-background.jpg"
     visible="false"
   ></a-entity>
   <a-entity
