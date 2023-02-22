@@ -11,6 +11,10 @@ defineProps({
   overlaySelector: String,
 });
 
+function teleport() {
+  document.querySelector("#camera-rig").setAttribute("position", "0 10 0");
+}
+
 const colorBoxLeft = ref(randomHsl());
 const colorBoxRight = ref(randomHsl());
 const allAssetsLoaded = ref(false);
@@ -38,6 +42,7 @@ const allAssetsLoaded = ref(false);
       <a-asset-item id="caisse" src="assets/caisse.glb"></a-asset-item>
       <a-asset-item id="etagere" src="assets/etagere.glb"></a-asset-item>
       <a-asset-item id="coquillage" src="assets/sea_shell.glb"></a-asset-item>
+      <a-asset-item id="forest" src="assets/forest.glb"></a-asset-item>
     </a-assets>
 
     <a-box
@@ -167,6 +172,16 @@ const allAssetsLoaded = ref(false);
     </a-entity>
 
     <TheManageDoor v-if="allAssetsLoaded" position="0 1.36 -13" />
+
+    <a-box
+      id="teleport-to-forest"
+      rotation="0 0 0"
+      position="-0.5 1.36 -14"
+      material="color: red;"
+      clickable
+      @click="teleport()"
+    >
+    </a-box>
 
     <TheNavMesh />
 

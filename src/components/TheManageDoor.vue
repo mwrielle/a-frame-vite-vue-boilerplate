@@ -26,7 +26,7 @@ function doorAnimation() {
       id="#door"
       gltf-model="#door"
       rotation="0 90 0"
-      position="-0.5 0 0"
+      position="-0.56 0 0"
       scale="0.012 0.012 0.012"
       @click="doorAnimation()"
     >

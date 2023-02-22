@@ -24,7 +24,7 @@ import "../aframe/blink-controls";
         geometry="primitive: circle; radius: 0.0004;"
         material="shader: flat; color: white;"
         cursor
-        raycaster="far: 2000; objects: [clickable]; showLine: false;"
+        raycaster="far: 1.5; objects: [clickable]; showLine: false;"
         position="0 0 -0.1"
         disable-in-vr="component: raycaster; disableInAR: false;"
         hide-in-vr="hideInAR: false"

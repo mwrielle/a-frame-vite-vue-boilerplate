@@ -1,18 +1,20 @@
 <template>
   <a-entity
-    geometry="primitive: plane; height: 13.5; width: 6"
-    position="0 0.01 -4.75"
+    id="room"
+    geometry="primitive: plane; height: 15.5; width: 6"
+    position="0 0 -4.75"
     rotation="-90 0 0"
     data-role="nav-mesh"
-    material="src:../../public/assets/texture-background.jpg"
-    visible="false"
+    visible="true"
   ></a-entity>
+
   <a-entity
-    geometry="primitive: plane; height: .5; width: 5"
-    position="0 0.01 -11.75"
+    id="forest"
+    geometry="primitive: plane; height: 30; width: 30"
+    position="0 10 0"
     rotation="-90 0 0"
+    material="color:#333"
     data-role="nav-mesh"
-    material="color: red"
-    visible="false"
+    visible="true"
   ></a-entity>
 </template>
