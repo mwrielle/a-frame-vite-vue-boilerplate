@@ -19,11 +19,12 @@ import "../aframe/blink-controls";
       camera
       position="0 1.6 0"
     >
+      <!-- pointerLOckEnabled : true masque le curseur -->
       <a-entity
-        geometry="primitive: circle; radius: 0.0003;"
+        geometry="primitive: circle; radius: 0.0004;"
         material="shader: flat; color: white;"
         cursor
-        raycaster="far: 2; objects: [clickable]; showLine: false;"
+        raycaster="far: 2000; objects: [clickable]; showLine: false;"
         position="0 0 -0.1"
         disable-in-vr="component: raycaster; disableInAR: false;"
         hide-in-vr="hideInAR: false"

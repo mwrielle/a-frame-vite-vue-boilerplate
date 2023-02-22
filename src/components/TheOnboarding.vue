@@ -105,6 +105,17 @@ function enterScene() {
           <dd>
             <a href="" target="_blank">CC Attribution</a>
           </dd>
+
+          <dt>
+            <a
+              href="https://sketchfab.com/3d-models/door-adf292f437f24151918a3b16ecef52d2"
+              target="_blank"
+              >Door</a
+            >
+          </dt>
+          <dd>
+            <a href="" target="_blank">CC Attribution</a>
+          </dd>
         </dl>
       </div>
     </div>
