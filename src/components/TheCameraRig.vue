@@ -14,7 +14,7 @@ import "../aframe/blink-controls";
     <a-entity
       id="head"
       look-controls="pointerLockEnabled: true"
-      simple-navmesh-constraint="navmesh: [data-role='nav-mesh']; height: 1.65;"
+      simple-navmesh-constraint="navmesh: [data-role='nav-mesh']; height: 1.60;"
       disable-in-vr="component: simple-navmesh-constraint;"
       camera
       position="0 1.6 0"

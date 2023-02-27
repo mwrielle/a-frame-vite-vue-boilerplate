@@ -13,7 +13,6 @@
     geometry="primitive: plane; height: 30; width: 30"
     position="0 10 0"
     rotation="-90 0 0"
-    material="color:#333"
     data-role="nav-mesh"
     visible="true"
   ></a-entity>

@@ -183,6 +183,8 @@ const allAssetsLoaded = ref(false);
     >
     </a-box>
 
+    <TheTP position="0 10 0"></TheTP>
+
     <TheNavMesh />
 
     <TheCameraRig />
